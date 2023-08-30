@@ -1724,62 +1724,66 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Kaixo!"
+	line "Ongi etorri"
+	cont "#MON mundura!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "OAK dut izena!"
+	line "Jendeak #MON"
+	cont "irakaslea"
+	cont "deitzen dit!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Mundu honetan"
+	line "#MON izeneko"
+	cont "izakiak bizi"
+	cont "dira!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Batzuentzat,"
+	line "#MON maskotak"
+	cont "dira. Beste"
+	cont "batzuek"
+	cont "borrokarako"
+	cont "erabiltzen dituzte."
 
-	para "Myself..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Nik..."
+
+	para "#MON ikasten"
+	line "dut lanbide gisa."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Lehenik, nola"
+	line "duzu izena?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Hau nire biloba"
+	line "da. Zure aurkaria"
+	cont "izan da"
+	cont "txikitatik."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Mmm, nola"
+	line "du izena?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Zure #MON"
+	line "legenda hasiko"
+	cont "da!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "#MON duten amets"
+	line "eta abenturazko"
+	cont "mundu bat"
+	cont "zain dago! Goazen!"
 	done
 
 _DoYouWantToNicknameText::
@@ -1791,14 +1795,15 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Ongi! Beraz"
+	line "<PLAYER> duzu izena!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Egia da!"
+	line "Orain gogoratzen"
+	cont "dut! Bere izena"
+	cont "<RIVAL> da!
 	prompt
 
 _WillBeTradedText::
