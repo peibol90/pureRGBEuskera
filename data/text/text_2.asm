@@ -1803,7 +1803,7 @@ _HisNameIsText::
 	text "Egia da!"
 	line "Orain gogoratzen"
 	cont "dut! Bere izena"
-	cont "<RIVAL> da!
+	cont "<RIVAL> da!"
 	prompt
 
 _WillBeTradedText::
