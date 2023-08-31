@@ -364,7 +364,7 @@ GetYCoordAndXVariable:
 
 TextSpeedOptionText:
 	db   "TESTUEN ABIADURA"
-	next " LASTER AZK. POL.@"
+	next " LASTER  AZK. POL.@"
 
 BattleAnimationOptionText:
 	db   "BATAILA ANIMAZIOA"
@@ -372,7 +372,7 @@ BattleAnimationOptionText:
 
 BattleStyleOptionText:
 	db   "BATAILA MODUA"
-	next " EUTSI ALDATU@"
+	next " EUTSI    ALDATU@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:
