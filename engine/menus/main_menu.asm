@@ -367,7 +367,7 @@ ContinueText:
 
 NewGameText:
 	db   "JOKO BERRIA"
-	next "AUKERA@"
+	next "AUKERAK@"
 
 CableClubOptionsText:
 	db   "TRUKE ZENTROA"
@@ -385,7 +385,7 @@ ENDC
 IF DEF(_GREEN)
 	db "PureGreen"
 ENDC
-db "Euskaraz v"
+db " (Eusk) v"
 INCLUDE "version_number.asm"
 db "@"
 
