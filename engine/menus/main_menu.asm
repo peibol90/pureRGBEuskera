@@ -361,18 +361,18 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "JARRAITU"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "JOKO BERRIA"
+	next "AUKERA@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
-	next "CANCEL@"
+	db   "TRUKE ZENTROA"
+	next "KOLISEO"
+	next "ITXI@"
 
 VersionText:
 db " "
@@ -385,7 +385,7 @@ ENDC
 IF DEF(_GREEN)
 	db "PureGreen"
 ENDC
-db " v"
+db "Euskaraz v"
 INCLUDE "version_number.asm"
 db "@"
 
@@ -470,10 +470,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
+	db   "JOKALARIA"
+	next "MEDAILAK  "
 	next "#DEX    "
-	next "TIME@"
+	next "DENBORA@"
 
 CheckForPlayerNameInSRAM:
 ; Check if the player name data in SRAM has a string terminator character
